@@ -1,5 +1,4 @@
 numpy
 streamlit
-PIL
 pandas
 firebase_admin
