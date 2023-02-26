@@ -30,7 +30,7 @@ st.markdown('Colección y envio de datos (Mostrados en la consola de una computa
 col3, col4 = st.columns(2)
 
 with col3:
-    image2 = Image.open('img/monitor_Datos.png')
+    image2 = Image.open('img/monitor_Datos.PNG')
     st.image(image=image2)
 with col4:
     image02 = Image.open('img/scanMina.jpeg')
