@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import firestoreCrud as fsCRUD
-import json
 
 # LLamado de datos para firebase
 
@@ -30,6 +29,5 @@ with col2:
    chart_data = pd.DataFrame(np.random.randn(20, 2),columns=['Temperatura', 'humedad',])
    st.line_chart(chart_data)
 
-
-
+st.header('')
 
